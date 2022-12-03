@@ -17,11 +17,11 @@ var optionBtn4 = document.querySelector("#option4");
 var questions = [
     {
         question: "Commonly used data types do not include:",
-        option1: "1. Strings",
-        option2: "2. Booleans",
-        option3: "3. Numbers",
-        option4: "4. Alerts",
-        answer: "4. Alerts"
+        option1: "1. strings",
+        option2: "2. booleans",
+        option3: "3. numbers",
+        option4: "4. alerts",
+        answer: "4. alerts"
     },
     {
         question: "The condition in an if/else statement is enclosed with _____.",
