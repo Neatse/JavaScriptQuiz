@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="main-page">
+        <div class="header">
+            <h3 id="score-btn">View high scores</h3>
+            <h3 id="timer">Time: 0</h3>
+            </h1>
+        </div>
+        <div class="container">
+
+            <div id="home-container">
+                <div class="content">
+                    <h1 id="title">Coding Quiz Challenge</h1>
+                    <h2 id="instruction">Try to answer the following code - related questions within the time limit.
+                        Keep in
+                        mind that incorrect answers will penalize your scoretime by ten seconds!</h2>
+                    <button id="start-btn" class="btn">Start Quiz</button>
+                </div>
+            </div>
+
+            <div id="question-container">
+                <div class="content-2">
+                    <h1 id="question">Coding Quiz Challenge</h1>
+                    <div id="optionBtn">
+                        <button id="option1" class="btn">option1</button>
+                        <button id="option2" class="btn">option2</button>
+                        <button id="option3" class="btn">option3</button>
+                        <button id="option4" class="btn">option4</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="complete-container">
+                <div class="content-3">
+                    <h1>All done!</h1>
+                    <h2 id="score">Your final score is x.</h2>
+                    <div class="btn-container">
+                        <h2>Enter initials: </h2>
+                        <input id="initials" type="text" class="input-box">
+                        <button id="submit-btn" class="btn" value="">Submit</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer-container">
+                <br>
+                <hr>
+                <h2 id="result-text">Wrong!</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="score-page">
+        <div class="container">
+                <div class="content-4">
+                    <h1 id="title">High scores</h1>
+                    <div id="score-list"></div>
+                    <div class="btn-container">
+                        <button id="back-btn" class="btn" style="margin-right: 1rem;">Go back</button>
+                        <button id="clear-btn" class="btn">Clear high scores</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
